@@ -1,0 +1,2 @@
+# Prevent any .env files from being committed
+.env*
