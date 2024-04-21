@@ -1,11 +1,9 @@
 #!/usr/bin/env ruby
 
-require 'dotenv'
+# Gems
+require 'dotenv/load'
 require 'octokit'
 require 'pry'
+
+## Script start
 require_relative '../lib/main'
-
-puts "loaded!"
-
-# Execute script to remove repos
-main()
